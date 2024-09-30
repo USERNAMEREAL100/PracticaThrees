@@ -10,8 +10,6 @@ public class FormatOutput {
 
         System.out.print("Введіть число з плаваючою точкою(наприклад, 2,13): ");
         double doubleValue = scanner.nextDouble();
-        
-        // Щоб прочитати строку після числа, потрібно додати наступний рядок
         scanner.nextLine();
 
         System.out.print("Введіть строку: ");
